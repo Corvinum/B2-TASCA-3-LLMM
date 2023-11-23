@@ -1,0 +1,84 @@
+<!--Declaración de que es HTML y su versión-->
+<!DOCTYPE html>
+<!--Apertura del elemento html-->
+<html>
+  <!--Apertura del elemento head-->
+  <head>
+    <!--Definición del metadato set de caracteres-->
+    <meta charset="UTF-8">
+    <!--Definición del titulo de la página-->
+    <title>Inicio</title>
+    <!--Define la relación entre el archivo HTML y la archivo CSS externa-->
+    <link rel="stylesheet" type="text/css" href="resources/estils.css">
+  <!--Cierre del elemento head-->
+  </head>
+  <!--Apertura del elemento body-->
+  <body>
+    <!--Apertura del elemento semantico header-->
+    <header>
+      <!--Inserción de image con ciertas propiedades como el display y el tamaño en px-->
+      <img id="fake-logo" src="https://i.imgflip.com/4bpnt9.jpg"/>
+      <!--Apertura y cierre del h1 con el atributo style modificando la propiedad de color a rojo-->
+      <h1 id="principal">Tasca 2</h1>
+      <!--Apertura del elemento semantico nav-->
+      <nav>
+        <!--Apertura de lista desordenada para la navegación hacia otra pagina-->
+        <ul id="index-list">
+          <!--Apertura y cierre de cada elemento de la lista que serviran para la navegación hacia esa pagina,ademas
+          de que tiene el atributo style modificando la propiedad display para que cada elemento, sea inline, al hacerlo
+          de esta manera, evidentemente se tiene que estar repitiendo por cada elemento/item, aparte de que se usara el
+          elemento anchor para que la palabra este vinculada y que con un clic sea posible la navegación.-->
+          <li><a href="./inici.html">Inici</a></li>
+          <li><a href="./audios.html">Àudios</a></li>
+          <li><a href="./videos.html">Vídeos</a></li>
+          <li><a href="./taules.html">Taules</a></li>
+        <!--Cierre de lista desordenada-->
+        </ul>
+      <!--Cierre del elemento semantico nav-->
+      </nav>
+    </header>
+    <!--Cierre del elemento semantico header-->
+    <!--Apertura del elemento semantico main-->
+    <main>
+      <!--Apertura y cierre del primer h2-->
+      <h2>Primera web</h2>
+      <!--Apertura y cierre del segundo h2-->
+      <h2>Nom alumne</h2>
+      <!--Apertura del primer párrafo-->
+      <p>
+      <!--Uso del elemento em para dar enfasis-->
+      "El concepte d'<em>àudio</em> s'empra per anomenar la tècnica que permet gravar, transmetre i reproduir sons".
+      <!--Cierre del primer párrafo-->
+      </p>
+      <!--Apertura del primer párrafo ademas del uso del elemento b para poner en negrita ciertas palabras-->
+      <p>"És la tecnologia d'enregistrament, processament, emmagatzematge, transmissió d'imatges i reconstrucció 
+        per mitjans <b>electrònics digitals o analògics</b> d'una seqüència d'imatges que representen escenes en moviment".
+      <!--Cierre del segundo párrafo-->
+      </p> 
+    <!--Cierre del elemento semantico main-->
+    </main>
+    <!--Apertura del elemento semantico article-->
+    <article>
+      <!--Apertura y cierre del elemento párrafo con el hijo anchor para asi hipervincular el texto plano hacia 
+        la pagina web del centro,-->
+      <p><a href="https://www.cifpfbmoll.eu/">Pàgina web de Centre CIFP Francesc de Borja Moll.</a></p>
+    <!--Apertura del elemento semantico article-->
+    </article>
+    <!--Uso del elemento center para centrar el elemento img el cual contiene una imagen relacionada al 
+    tema modificando la propiedad de ancho a 700 pixeles con el atributo width, ademas de usar el atributo 
+    alt para que en caso de que la imagen no vaya aparezca este texto alternativo, a su vez de que funcionara
+    para que la gente haga uso del narrado para la gente con discapacidad visual-->
+    <img id="central" src="https://acumbamail.com/blog/wp-content/uploads/2014/10/maquetacion-email-html.png" alt="Imagen sobre HTML"/>
+    <!--Apertura del elemento semantico footer-->
+    <footer>
+      <!--Apertura y cierra para cada párrafo contenedor de distinta información sobre el creador de la pagina-->
+      <p>Autor: Michael Montaño Mejia</p>
+      <!--Uso del tag de párrafo para contener el correo | SIGUIENTE TAG ES ALGO EXTRA | Uso de anchor para hipervincular el correo, al hacer 
+        clic abre el programa de correo automaticamente-->
+      <p><a href="mailto:mmontanomejia@cifpfbmoll.eu">mmontanomejia@cifpfbmoll.eu</a></p>
+    <!--Cierre del elemento semantico footer-->
+    </footer>
+  <!--Cierre del elemento body-->
+  </body>
+<!--Cierre del elemento HTML-->
+</html>

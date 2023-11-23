@@ -1,0 +1,80 @@
+/*TODOS LOS ELEMENTOS*/
+/*Les establezco un tipo de fuente, y establezco el peso de fuente para
+que se entiendan las letras.*/
+* {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 200;
+}
+/*SOLO EL TAG*/
+/*Agrego un margin un espacio de relleno para verse un poco mejor
+finalmente añadiendole un borde de color naranja.*/
+body{
+  margin: 20px;
+  border: 4px solid orange;
+  padding: 20px;
+}
+/*PAGINA inici*/
+img#fake-logo{
+  display: inline;
+  width: 50px;
+}
+/*ESTILIZO EL TITULO PRINCIPAL*/
+h1#principal{
+  display: inline; 
+  color: red; 
+  margin-left: 10px;
+}
+/*CENTRO LA IMAGEN*/
+img#central{
+  display: block;
+  width: 700px;
+  margin: 0 auto;
+}
+/*CENTRO UL Y POR CONSECUENTE SUS CHILDS LI*/
+ul#index-list{
+  text-align: center;
+}
+/*ESTABLEZCO LOS LI INLINE YA QUE SON TEXTO PARA PODER CENTRARLOS*/
+ul#index-list li{
+  display: inline;
+}
+/*AGREGO COLOR DE FONDO AL DEJAR EL RATON ENCIMA DE LOS LI*/
+ul#index-list li:hover{
+  background-color: rgb(235, 176, 24);
+}
+/*AGREGANDO UNA CARITA SONRIENTE A LOS LI DEL UL DE NAV*/
+ul#index-list li::after{
+  content: ":p";
+}
+/*PAGINA videos*/
+main#videos{
+  text-align: center;
+}
+/*ESTABLECIENDO UN TAMAÑO AL VIDEO*/
+video#primero{
+  width: 560px;
+}
+
+/*PAGINA taules*/
+/*ESTILIZANDO LA TABLA*/
+table{
+  border-collapse: collapse;
+  margin-left:auto;
+  margin-right: auto;
+}
+
+th{
+  width: 100px;
+}
+th, td{
+  border: 1px solid black;
+}
+td{
+  padding: 4px;
+  width: 100;
+}
+
+/*PAGINA audios*/
+main#audios{
+  text-align: center;
+}

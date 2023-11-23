@@ -1,0 +1,41 @@
+<!--Declaración de que es HTML y su versión-->
+<!DOCTYPE html>
+<!--Apertura del elemento html-->
+<html>
+  <!--Apertura del elemento head-->
+  <head>
+    <!--Definición del metadato set de caracteres-->
+    <meta charset="UTF-8">
+    <!--Definición del titulo de la página-->
+    <title>Videos</title>
+    <!--Define la relación entre el archivo HTML y la archivo CSS externa-->
+    <link rel="stylesheet" type="text/css" href="resources/estils.css">
+  <!--Cierre del elemento head-->
+  </head>
+  <!--Apertura del elemento body-->
+  <body>
+    <!--Apertura del elemento semantico main-->
+    <main id="videos">
+      <!--Apertura del elemento semantico article-->
+      <article>
+        <!--Apertura y cierre del primer h1 || LO USO SOLO PARA SEPARAR VIDEOS-->
+        <h1>VIDEO 1</h1>
+        <!--Apertura y cierre del elemento video el cual muestra un video con un ancho de 560 pixeles, la altura sera 
+          respectiva a este ancho, con botones para controlarlo gracias a controls, luego el atributo autoplay 
+          autoreproducira el video, aunque también indica que con src se esta dando la dirección del video-->
+        <video id="primero" controls autoplay src="./resources/funky_town.mp4"></video>
+      <!--Cierre del elemento semantico article-->
+      </article>
+      <!--Apertura del elemento semantico article-->
+      <article>
+        <!--Apertura y cierre del segundo h1 || LO USO SOLO PARA SEPARAR VIDEOS-->
+        <h1>VIDEO 2</h1>
+        <!--Apertura y cierre del elemento iframe, el cual muestra un video de la plataforma de Youtube. No tengo mucho
+        que comentar mas alla de que se establece un ancho y alto, lo demas se autoagrego por parte de YT.-->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/XV8oBbVSgEA?si=zOc9t9rvABzFbq0F" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </article>
+    </main>
+  <!--Cierre del elemento body-->
+  </body>
+<!--Cierre del elemento HTML-->
+</html>

@@ -1,0 +1,42 @@
+<!--Declaración de que es HTML y su versión-->
+<!DOCTYPE html>
+<!--Apertura del elemento html-->
+<html>
+  <!--Apertura del elemento head-->
+  <head>
+    <!--Definición del metadato set de caracteres-->
+    <meta charset="UTF-8">
+    <!--Definición del titulo de la página-->
+    <title>Audios</title>
+    <!--Define la relación entre el archivo HTML y la archivo CSS externa-->
+    <link rel="stylesheet" href="resources/estils.css">
+  <!--Cierre del elemento head-->
+  </head>
+  <!--Apertura del elemento body-->
+  <body>
+    <!--Apertura del elemento semantico main-->
+    <main id="audios">
+      <!--Apertura del elemento semantico article-->
+      <article>
+        <!--Apertura y cierre del primer h1 || LO USO SOLO PARA SEPARAR AUDIOS-->
+        <h1>AUDIO 1</h1>
+        <!--Apertura y cierre del elemento audio, el cual muestra un audio con botones para controlarlo gracias a controls
+        , luego muted para que se silencie, esto debido a que con el atributo autoplay se autoreproducira, aunque también 
+        indicar que con src estoy dando la dirección del audio-->
+        <audio controls muted autoplay src="./resources/omfg_hello.mp3"></audio>
+      <!--Cierre del elemento semantico article-->
+      </article>
+      <!--Apertura del elemento semantico article-->
+      <article>
+        <!--Apertura y cierre del segundo h1 || LO USO SOLO PARA SEPARAR AUDIOS-->
+        <h1>AUDIO 2</h1>
+        <!--Apertura y cierre del elemento audio el cual muestra un audio con botones para controlarlo gracias a controls
+          y  con src estoy dando la dirección del audio-->
+        <audio controls src="./resources/goofy.mp3"></source></audio>
+      <!--Cierre del elemento semantico article-->
+      </article>
+    </main>
+  <!--Cierre del elemento body-->
+  </body>
+<!--Cierre del elemento html-->
+</html>
